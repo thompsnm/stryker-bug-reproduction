@@ -13,9 +13,9 @@
   "author": "Nathan Thompson <nathan.mike.thompson@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@stryker-mutator/core": "^2.4.0",
-    "@stryker-mutator/javascript-mutator": "^2.4.0",
-    "@stryker-mutator/jest-runner": "^2.4.0",
-    "jest": "^24.9.0"
+    "@stryker-mutator/core": "2.4.0",
+    "@stryker-mutator/javascript-mutator": "2.4.0",
+    "@stryker-mutator/jest-runner": "2.4.0",
+    "jest": "24.9.0"
   }
 }

@@ -1,7 +1,7 @@
 {
-  "name": "stryker-bug-reproduction",
+  "name": "stryker-bug-reproduction-test",
   "version": "1.0.0",
-  "description": "A toy repository for reproducing a bug in Stryker sandboxing",
+  "description": "A toy submodule for reproducing a bug in Stryker sandboxing",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -13,9 +13,9 @@
   "author": "Nathan Thompson <nathan.mike.thompson@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@stryker-mutator/core": "^2.4.0",
-    "@stryker-mutator/javascript-mutator": "^2.4.0",
-    "@stryker-mutator/jest-runner": "^2.4.0",
-    "jest": "^24.9.0"
+    "@stryker-mutator/core": "2.4.0",
+    "@stryker-mutator/javascript-mutator": "2.4.0",
+    "@stryker-mutator/jest-runner": "2.4.0",
+    "jest": "24.9.0"
   }
 }
