@@ -5,6 +5,13 @@ module.exports = function(config) {
     reporters: ["clear-text", "progress"],
     testRunner: "jest",
     transpilers: [],
-    coverageAnalysis: "off"
+    coverageAnalysis: "off",
+    files: [
+      './test/comparator.test.js',
+      './src/comparator.js'
+    ],
+    mutate: [
+      './src/comparator.js'
+    ]
   });
 };
